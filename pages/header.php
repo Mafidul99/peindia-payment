@@ -52,7 +52,7 @@
                     
                     <li><a href="#" class="dropdown-toggle btn secondary-solid-btn check-btn"> Login</a>
                         <ul class="sub-menu">
-                            <li><a href="#" target="_blank">API Login</a></li>
+                            <!--<li><a href="#" target="_blank">API Login</a></li>-->
                             <li><a href="https://api.peindia.net.in/login/" target="_blank">Admin Login</a></li>
                             <li><a href="https://api.peindia.net.in/login/" target="_blank">Retailer Login</a></li>
                         </ul>
