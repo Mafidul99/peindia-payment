@@ -216,7 +216,7 @@
                     <div class="subscribe-content">
                         <h3 class="mb-1">Online Application</h3>
                         <div>
-                            <a href="#" class="btn btn-primary btn-lg">Apply Now</a>
+                            <a href="https://my.forms.app/mafidulislam1/registration-form" target="_blank" class="btn btn-primary btn-lg">Apply Now</a>
                         </div>
                     </div>
                 </div>
