@@ -78,6 +78,9 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">KYC Form</a>
                                         </li>
+                                        <li class="nav-item">
+                                        <a href="nsdl-csp.php">NSDL CSP</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
