@@ -10,9 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="peindia Assam">
-    <meta property="og:site_name" content="" />
+    <meta property="og:site_name" content="Peindia AePS Money Transfer" />
     <!-- website name -->
-    <meta property="og:site" content="" />
+    <meta property="og:site" content="Micro Atm Services" />
     <!-- website link -->
     <meta property="og:title" content="" />
     <!-- title shown in the actual shared post -->
@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <title>Peindia API - Website Design & Development | Software & App Development </title>
+    <title>Peindia AePS Money Transfer | Micro Atm Services </title>
 </head>
 
 <body onload="myFunction()">
