@@ -23,7 +23,7 @@
     <meta property="og:url" content="" />
     <!-- where do you want your post to link to -->
     <meta property="og:type" content="article" />
-    <link rel="icon" href="image/favicon12.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="image/faa_logo.png" type="image/png" sizes="16x16">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans:400,600&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -243,8 +243,8 @@
                                         </li>
                                     </ul>-->
                                 </div>
-                                <h3 class="h5 mb-2 card-title"><a href="#">Bank Of Baroda (CSP)</a></h3>
-                                <p class="card-text">BOB CSP -Fund Transfer, Account opening of zero balance saving accounts etc.
+                                <h3 class="h5 mb-2 card-title"><a href="#">AePS Services</a></h3>
+                                <p class="card-text">AePS, BBPS, DMT -Fund Transfer etc.
                                 </p>
                                 <a href="#" class="detail-link">Click Here <span class="ti-arrow-right"></span></a>
                             </div>
@@ -278,7 +278,7 @@
                     <div class="col-md-4">
                         <div class="single-blog-card card border-0 shadow-sm">
                             <div class="blog-img position-relative">
-                                <img src="img/blog/3 copy.png" class="card-img-top" alt="blog">
+                                <img src="img/blog/Micom_Atm.png" class="card-img-top" alt="blog">
                                 <div class="meta-date">
                                     <strong>24</strong>
                                     <small>Apr</small>
@@ -293,8 +293,8 @@
                                         </li>
                                     </ul>-->
                                 </div>
-                                <h3 class="h5 mb-2 card-title"><a href="#">NSDL Payment Bank (CSP)</a></h3>
-                                <p class="card-text">NSDL Payments Bank CSP -Fund Transfer, zero balance saving accounts etc. </p>
+                                <h3 class="h5 mb-2 card-title"><a href="#">MICRO ATM</a></h3>
+                                <p class="card-text">No monthly rental charges, No hidden charges, Real time bank settlement etc. </p>
                                 <a href="#" class="detail-link">Click Here <span class="ti-arrow-right"></span></a>
                             </div>
                         </div>

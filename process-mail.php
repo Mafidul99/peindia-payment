@@ -10,8 +10,8 @@ if($name=='' || $Mobile=='' || $email=='' || $message==''){
 } else {
 
 $from       = "Peindia Digital.";
-$webmaster  = "support@peindia.net.in"; //It's web master mail info@example.com
-$to         = "rabibcsp@gmail.com"; // where you want to get mail 
+$webmaster  = "mdonline192@gmail.com"; //It's web master mail info@example.com
+$to         = "mafidul.peindia@gmail.com"; // where you want to get mail 
 $subject    = " Contact Us From Peindia Digital.";
 
 $headers    = "From: " . $from . "<" . $webmaster . ">\r\n";
