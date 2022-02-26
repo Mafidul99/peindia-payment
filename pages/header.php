@@ -51,12 +51,12 @@
                     <li><a href="about-us.php">About Us</a></li>
                     <li><a href="contact-us.php">Contact Us</a></li>
                     
-                    <li><a href="#" class="dropdown-toggle btn secondary-solid-btn check-btn"> Login</a>
-                        <ul class="sub-menu">
-                            <!--<li><a href="#" target="_blank">API Login</a></li>-->
+                    <li><a href="https://api.peindia.net.in/login/" class="btn secondary-solid-btn check-btn"> Login</a>
+                        <!--<ul class="sub-menu">
+                            <li><a href="#" target="_blank">API Login</a></li>
                             <li><a href="https://api.peindia.net.in/login/" target="_blank">Admin Login</a></li>
                             <li><a href="https://api.peindia.net.in/login/" target="_blank">Retailer Login</a></li>
-                        </ul>
+                        </ul>-->
                     </li>
                     </li>
                 </ul>

@@ -450,21 +450,21 @@ a:hover {
 }
 
 .primary-solid-btn {
-    border: 1px solid #F39614;
+    border: 1px solid #f19007;
     /* box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .15);
     background-image: linear-gradient(to bottom, #65258a, #7c23af); */
     color: #ffffff;
-    background-color: #F39614;
+    background-color: #f19007;
 }
 
 .primary-solid-btn:hover {
     background: transparent;
-    color: #F39614;
+    color: #f19007;
 }
 
 .secondary-solid-btn {
     color: #fff;
-    background: #F39614;
+    background: #f19007;
     border: 1px solid #F39614;
 }
 
@@ -5569,7 +5569,7 @@ button.scroll-top:focus {
     color: #ffffff;
     text-align: center;
     cursor: pointer;
-    background: #F39614;
+    background: #f59002;
     transition: 1s ease;
     border: none;
 }
@@ -5885,4 +5885,3 @@ small {
 
 
 /**apply btn*/
-

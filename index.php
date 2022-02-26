@@ -573,8 +573,37 @@
 
 
         <!--call to action section start-->
+        <section class="call-to-action ptb-70" style="background: url('img/ctg-bg-2.jpg')no-repeat center center / cover">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-9">
+                        <div class="section-heading text-center text-white mb-5">
+                            <h2 class="text-white">Why Wait ? Launch your Website Today! </h2>
+                            <p class="lead">Single Web Page, Business Website, Educational Website, Dynamic Website, Personal & Blogging Website, E-Commerce Website, Web Portal & Web Application .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-12">
+                        <div class="analysis-form-wrap text-center">
+
+
+                            <div class="col-lg-12 col-md-12 p-0">
+                                <div class="form-group">
+                                    <center><a href="#" class="btn secondary-outline-btn">Read More</a></center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-image d-none d-lg-block d-md-block">
+                <img src="img/cta-1-man.svg" width="200" class="img-left" alt="cta">
+                <img src="img/cta-1-mike.svg" width="200" class="img-right" alt="cta">
+            </div>
+        </section>
         <!----------------------------------------------------------------------------------------------->
-        <section class="testimonial-section ptb-80" style="background: url('img/bg110.png')no-repeat center center / cover">
+        <!--<section class="testimonial-section ptb-80" style="background: url('img/bg110.png')no-repeat center center / cover">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 col-lg-5">
@@ -586,7 +615,6 @@
                     </div>
                     <div class="col-md-6 col-lg-6">
                         <div class="testimonial-content-wrap">
-                            <!--<img src="img/" class="img-fluid testimonial-tb-shape shape-top" alt="testimonial shape">-->
                             <div class="owl-carousel owl-theme client-testimonial-1 custom-dot testimonial-shape">
                                 <div class="item">
                                     <div class="testimonial-quote-wrap">
@@ -711,12 +739,11 @@
                                 </div>
 
                             </div>
-                            <!--<img src="#" class="img-fluid testimonial-tb-shape shape-bottom" alt="testimonial shape">-->
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-------------------------------------------------------------------------------------->
 
 
