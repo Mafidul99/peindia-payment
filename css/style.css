@@ -508,7 +508,7 @@ a:hover {
 }
 
 .secondary-outline-btn:hover {
-    background: #F39614;
+    background: #010d79;
     color: #ffffff;
 }
 
@@ -5881,6 +5881,25 @@ small {
     color: #F39614;
     font-family: 'Roboto Slab', sans-serif;
     text-transform: uppercase;
+}
+
+.modal-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center !important;
+    color: #F39614;
+}
+
+.modal-title2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center !important;
+    color: #F39614;
+}
+
+.modelname {
+    font-size: 14px;
+    color: #000;
 }
 
 

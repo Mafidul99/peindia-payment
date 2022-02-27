@@ -100,7 +100,7 @@
                                 </div>
                                 <div>
                                     <h5 class="mb-0">Call Us</h5>
-                                    <p class="text-muted mb-0"> +91-7030305080</p>
+                                    <p class="text-muted mb-0"> +91-7099021308</p>
                                 </div>
                             </div>
                         </div>
@@ -195,7 +195,8 @@
                             <h2>Looking For Make Your Business Online?</h2>
                             <p class="lead" align="justify">We are best in Website & Software development, Digital Marketing, App Development and other related services.</p>
 
-                            <a href="#" class="btn outline-btn align-items-center">Get Quote <span class="ti-arrow-right pl-2"></span></a>
+                            <a href="#" class="btn outline-btn align-items-center" data-toggle="modal" data-target="#getmodal">
+                                Get Quote <span class="ti-arrow-right pl-2"></span></a>                            
 
                             <hr class="my-5">
 
@@ -205,7 +206,7 @@
                             Sixmile Panajabari Road,Guwahati- 781022, Assam
                            </address>
                             <br>
-                            <span> <b> Customer Care : +91 7030305080 </b></span> <br>
+                            <span> <b> Helpline : +91 7099021308 </b></span> <br>
                             <span><b> Email: <a href="mailto:support@peindia.net.in" class="link-color">support@peindia.net.in</a></span></b>
 
                         </div>
@@ -221,4 +222,66 @@
     <!--body content wrap end-->
 
     <?php include('pages/footer.php'); ?>
+
+    <!--model section end-->
+<!-- Modal -->
+<div class="modal fade" id="getmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">REQUEST QUOTE</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="" method="POST">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label class="modelname">Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your First Name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="modelname">Last name</label>
+                            <input type="text" class="form-control" placeholder="Enter your Last Name" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label class="modelname">Email</label>
+                            <input type="email" class="form-control" placeholder="Enter your Email" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="modelname">Mobile</label>
+                            <input type="text" class="form-control" placeholder="Enter your Mobile" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label class="modelname">Pan Card Number</label>
+                            <input type="text" class="form-control" placeholder="Enter your Pan Number" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="modelname">Aadhaar Card Number</label>
+                            <input type="text" class="form-control" placeholder="Enter your Aadhaar Number" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="modelname">Full Address</label>
+                        <input type="text" class="form-control" placeholder="Your Address" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="modelname">Message</label>
+                        <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-warning">Save changes</button>
+                </form>                
+            </div>            
+        </div>
+    </div>
+</div>
+
+<!--model section end-->
 

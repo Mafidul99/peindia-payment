@@ -243,10 +243,10 @@
                                         </li>
                                     </ul>-->
                                 </div>
-                                <h3 class="h5 mb-2 card-title"><a href="#">AePS Services</a></h3>
-                                <p class="card-text">AePS, BBPS, DMT -Fund Transfer etc.
+                                <h3 class="h5 mb-2 card-title"><a href="aeps-api.php">AePS Services</a></h3>
+                                <p class="card-text">Aadhaar enabled Payment System, secure payment method provided by the ICICI.
                                 </p>
-                                <a href="#" class="detail-link">Click Here <span class="ti-arrow-right"></span></a>
+                                <a href="aeps-api.php" class="detail-link">Click Here <span class="ti-arrow-right"></span></a>
                             </div>
                         </div>
                     </div>
@@ -293,9 +293,9 @@
                                         </li>
                                     </ul>-->
                                 </div>
-                                <h3 class="h5 mb-2 card-title"><a href="#">MICRO ATM</a></h3>
+                                <h3 class="h5 mb-2 card-title"><a href="micro-atm-api.php">MICRO ATM</a></h3>
                                 <p class="card-text">No monthly rental charges, No hidden charges, Real time bank settlement etc. </p>
-                                <a href="#" class="detail-link">Click Here <span class="ti-arrow-right"></span></a>
+                                <a href="micro-atm-api.php" class="detail-link">Click Here <span class="ti-arrow-right"></span></a>
                             </div>
                         </div>
                     </div>
@@ -573,7 +573,7 @@
 
 
         <!--call to action section start-->
-        <section class="call-to-action ptb-70" style="background: url('img/ctg-bg-2.jpg')no-repeat center center / cover">
+        <section class="call-to-action ptb-70" style="background: url('img/ctc-2.png')no-repeat center center / cover">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-9">
@@ -590,7 +590,9 @@
 
                             <div class="col-lg-12 col-md-12 p-0">
                                 <div class="form-group">
-                                    <center><a href="#" class="btn secondary-outline-btn">Read More</a></center>
+                                    <center><a href="#" class="btn secondary-outline-btn" data-toggle="modal" data-target="#onlineform">
+                                            Online Registration Form</a></center>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -598,8 +600,8 @@
                 </div>
             </div>
             <div class="cta-image d-none d-lg-block d-md-block">
-                <img src="img/cta-1-man.svg" width="200" class="img-left" alt="cta">
-                <img src="img/cta-1-mike.svg" width="200" class="img-right" alt="cta">
+                <img src="img/cash@pos2.png" width="160" class="img-left" alt="cta">
+                <img src="img/pine_pos.png" width="250" class="img-right" alt="cta">
             </div>
         </section>
         <!----------------------------------------------------------------------------------------------->
@@ -805,5 +807,67 @@
 
 
 <?php include('pages/footer.php'); ?>
+
+<!-- Modal Registration Form -->
+
+<div class="modal fade" id="onlineform" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title2" id="exampleModalLabel">ONLINE REGISTRATION FORM</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="" method="POST">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label class="modelname">Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your First Name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="modelname">Last name</label>
+                            <input type="text" class="form-control" placeholder="Enter your Last Name" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label class="modelname">Email</label>
+                            <input type="email" class="form-control" placeholder="Enter your Email" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="modelname">Mobile</label>
+                            <input type="text" class="form-control" placeholder="Enter your Mobile" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label class="modelname">Pan Card Number</label>
+                            <input type="text" class="form-control" placeholder="Enter your Pan Number" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="modelname">Aadhaar Card Number</label>
+                            <input type="text" class="form-control" placeholder="Enter your Aadhaar Number" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="modelname">Full Address</label>
+                        <input type="text" class="form-control" placeholder="Your Address" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="modelname">Message</label>
+                        <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </form>                
+            </div>            
+        </div>
+    </div>
+</div>
+
+<!--model section end-->
 
     
